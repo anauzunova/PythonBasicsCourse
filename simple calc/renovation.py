@@ -1,0 +1,12 @@
+naillon_price=1.5
+paint_price=14.5
+dissolvent_price=5
+nailon=int(input())+2
+paint=int(input())
+dissolvent=int(input())
+hours=int(input())
+bags=0.4
+material_price=nailon*naillon_price+(paint+0.1*paint)*paint_price+dissolvent*dissolvent_price+bags
+services=material_price*0.3*hours
+total_price=material_price+services
+print(total_price)

@@ -1,0 +1,5 @@
+deposited_sum=float(input('Enter the deposited sum: '))
+time_in_months=float(input('Enter the time in months:'))
+interest_rate=float(input('Enter the interest rate: '))
+sum=deposited_sum+time_in_months*((deposited_sum*interest_rate/100)/12)
+print('The total sum is:', sum)

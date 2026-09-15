@@ -1,0 +1,11 @@
+chicken_price=10.35
+fish_price=12.4
+veg_price=8.15
+c_menus=int(input())
+f_menus=int(input())
+v_menus=int(input())
+food=c_menus*chicken_price+f_menus*fish_price+v_menus*veg_price
+desserts=food*0.2
+delivery=2.5
+total=food+desserts+delivery
+print(total)

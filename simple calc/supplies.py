@@ -1,0 +1,9 @@
+pens_price=5.8
+markers_price=7.2
+cl_solution_price=1.2
+pens=int(input())
+markers=int(input())
+cl_solution=int(input())
+discount=int(input())/100
+total=pens*pens_price+markers*markers_price+cl_solution*cl_solution_price-discount*(pens*pens_price+markers*markers_price+cl_solution*cl_solution_price)
+print(total)
