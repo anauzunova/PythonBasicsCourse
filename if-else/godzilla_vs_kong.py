@@ -11,5 +11,5 @@ if leftovers>=0:
     print('Action!')
     print(f'Wingard starts filming with {(leftovers):.2f} leva left.')
 else:
-    print('Not enough money!')
+    print('Not enough money')
     print(f'Wingard needs {abs(leftovers):.2f} leva more.')
