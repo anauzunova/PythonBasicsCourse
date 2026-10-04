@@ -11,6 +11,7 @@ minion=int(input())
 bus=int(input())
 total_toys=puzzle+doll+bear+minion+bus
 total_price=puzzle_price*puzzle+doll_price*doll+bear_price*bear+minion_price*minion+bus_price*bus
+
 if total_toys>=50:
     total_price-=1/4*total_price
 else:
