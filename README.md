@@ -1,0 +1,1 @@
+Files with all the exercises assigned during SoftUni Python Basics course sorted in folders by topic. The topics include simple calculations, conditional statements, for loops, while loops and nested loops.
